@@ -1,0 +1,35 @@
+* { padding: 0; margin: 0; }
+a, span, p, h1, h2, h3, li {
+    font-family: "DM Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+body { padding: 50px 5%; }
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.logo {
+    display: block;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
